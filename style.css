@@ -1,0 +1,313 @@
+
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+    position:static;
+}
+/* Setting up basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:purple;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: brown;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Sections */
+.campus {
+  background-color: black;
+  padding: 232px 0;
+  text-align: center;
+  background-image: url("Wallpaper .webp");
+}
+
+.campus h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.campus p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color:greenyellow;
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about {
+  background-color: yellow;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  background-color: magenta;
+}
+
+footer p {
+  font-size: 14px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.products {
+  padding: 50px 0;
+  text-align: center;
+  background-color: ;
+}
+
+.products h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.product {
+  margin-bottom: 50px;
+  background-color: aquamarine;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 18px;
+  color: #666;
+} 
+/* Styling for account section */
+.account {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.account h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.sign-in,
+.sign-up {
+  margin-bottom: 50px;
+  background-color: purple;
+}
+
+.sign-in h3,
+.sign-up h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sign-in form,
+.sign-up form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in label,
+.sign-up label {
+  margin-bottom: 10px;
+}
+
+.sign-in input,
+.sign-up input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-in button,
+.sign-up button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in button:hover,
+.sign-up button:hover {
+  background-color: #555;
+} 
+/* Styling for offers section */
+.offers {
+  padding: 50px 0;
+  text-align: center;
+  background-color: moccasin;
+}
+
+.offers h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.offer {
+  margin-bottom: 50px;
+}
+
+.offer img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.offer h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.offer p {
+  margin-bottom: 20px;
+}
+
+.offer .btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.offer .btn:hover {
+  background-color: #555;
+} 
+/* Styling for contact section */
+.contact {
+  padding: 50px 0;
+  background-color: mediumaquamarine;
+}
+
+.contact h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-info, .social-media {
+  text-align: center;
+}
+
+.contact-info h3, .social-media h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media ul li a {
+ font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-media ul li a:hover {
+  color: #666;
+} 
+@media screen and (max-width:400px){
+body{
+    background-color: greenyellow;
+}
+    nav{
+        margin: 60px;
+        padding: 60px;
+    }
+}
